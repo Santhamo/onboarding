@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixon Entertainment - Ruaraka</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .service {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1;
+      min-width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .services {
+        flex-direction: column;
+      }
+    }
+
+    .logo {
+      width: 200px;
+      border-radius: 10px;
+      margin: 10px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Pixon Entertainment Logo" class="logo">
+    <h1>Pixon Entertainment</h1>
+    <p>Cyber Café | Computer Repair | Movie Sales - Ruaraka</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Cyber Café</h3>
+          <p>Fast internet access, printing, scanning, and typing in a quiet environment.</p>
+        </div>
+        <div class="service">
+          <h3>Computer Repair</h3>
+          <p>Hardware and software solutions for all types of PCs and laptops.</p>
+        </div>
+        <div class="service">
+          <h3>Movie Sales</h3>
+          <p>Get the latest HD and 4K movies, series, and more. Flash drive transfer available.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" style="margin-top: 40px;">
+      <h2>Our Location</h2>
+      <p>Visit us in <strong>Ruaraka, Nairobi</strong>.</p>
+      <p><a href="https://www.google.com/maps/place/Ruaraka,+Nairobi" target="_blank">View on Google Maps</a></p>
+    </section>
+
+    <section id="contact" style="margin-top: 40px;">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> <a href="tel:+254721581994">+254 721 581 994</a></p>
+      <p><strong>Email:</strong> info@pixonentertainment.co.ke</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/254721581994" target="_blank">Chat with us on WhatsApp</a></p>
+      <p><strong>Hours:</strong> Monday - Saturday: 8:00 AM - 7:00 PM</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Pixon Entertainment - All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
